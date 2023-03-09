@@ -207,7 +207,7 @@ header {
     border: 1px solid black;
     padding: 4px 10px;
     background-color: #cbd6ee;
-    color: rgb(8, 198, 8);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .home-title {
@@ -243,6 +243,9 @@ header {
 }
 .about-img {
     height: 100%;
+}
+.about-information {
+    color: gray;
 }
 .content-caption > p {
     color: gray;
@@ -285,7 +288,7 @@ header {
     gap: 20px;
 }
 .list-number {
-    background-color: gray;
+    background-color: #cbd6ee;
     color: white;
     height: 50px;
     width: 50px;
@@ -541,3 +544,4 @@ header {
 .terms {
     gap: 7px;
 }
+
